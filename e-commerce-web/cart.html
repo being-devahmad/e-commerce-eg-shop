@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EG - shop grocery website</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+      <div class="container-fluid d-flex justify-content-between">
+        <div class="ms-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="Assets/eg-shop.png" alt="" />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="product.html">Shop</a>
+            </li>
+            <li class="nav-item dropdown mx-3">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="about-us.html">About</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="checkout.html">Checkout</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="login.html"
+                    >Login / Register</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex py-2 me-3">
+          <div class="d-flex align-items-center">
+            <img src="Assets/phone-call.png" width="30px" alt="" />
+          </div>
+          <div class="ms-2">
+            <div class="text-muted">Hotline Number</div>
+            <div><p>+880 176 1111 456</p></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Cart Banner -->
+    <div class="headerBanner container-fluid">
+      <div class="row">
+        <div class="col d-flex justify-content-center align-items-center py-5">
+          <div class="text-center text-white fw-bold py-5">
+            <h1>Cart</h1>
+            <p>Home > Cart</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Cart Table -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="m-5">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th class="text-center py-3" scope="col">Delete</th>
+                  <th class="text-center py-3" scope="col">Image</th>
+                  <th class="text-center py-3" scope="col">Product Name</th>
+                  <th class="text-center py-3" scope="col">Unit Price</th>
+                  <th class="text-center py-3" scope="col">Discount Price</th>
+                  <th class="text-center py-3" scope="col">Subtotal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="text-center py-3" scope="row">1</th>
+                  <td class="text-center py-3">
+                    <img src="images/redcherry.png" class="w-25" alt="" />
+                  </td>
+                  <td class="text-center py-3">
+                    Organic Vegetable grains 100%
+                  </td>
+                  <td class="text-center py-3"><del>$32.36</del></td>
+                  <td class="text-center py-3 fw-bold text-muted">$22.36</td>
+                  <td class="text-center py-3 fw-bold text-muted">$22.36</td>
+                </tr>
+                <tr>
+                  <th class="text-center py-3" scope="row">2</th>
+                  <td class="text-center py-3">
+                    <img src="images/egg-plant.png" class="w-25" alt="" />
+                  </td>
+                  <td class="text-center py-3">Fresh Vegetable Eggplant</td>
+                  <td class="text-center py-3"><del>$45.36</del></td>
+                  <td class="text-center py-3 fw-bold text-muted">$35</td>
+                  <td class="text-center py-3 fw-bold text-muted">$35.36</td>
+                </tr>
+                <tr>
+                  <th class="text-center py-3" scope="row">3</th>
+                  <td class="text-center py-3">
+                    <img src="images/red-beat.jpg" class="w-25" alt="" />
+                  </td>
+                  <td class="text-center py-3">Fresh Delicious And Healthy</td>
+                  <td class="text-center py-3">$15.36</td>
+                  <td class="text-center py-3 fw-bold text-muted">$22.36</td>
+                  <td class="text-center py-3 fw-bold text-muted">$30.72</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- coupon code -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-4 px-5">
+          <div class="py-3">
+            <h4>Course Coupon</h4>
+          </div>
+          <div class="mb-3 d-flex">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Coupon code"
+              style="width: 72%"
+            />
+            <button
+              class="btn text-white"
+              style="width: 25%; background-color: #fa7b3e"
+              button
+            >
+              Apply
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-8 p-4">
+          <div>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">Card Totals</th>
+                  <th></th>
+                  <th scope="col">$128.70</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Shipping</th>
+                  <td>
+                    <p>
+                      Shipping Fee <br />
+                      Total ( tax excl.) <br />
+                      Total ( tax incl.) <br />
+                      Taxes <br />
+                      Shipping Enter your address to view shipping options.
+                      <br />
+                      <a href="#" style="color: #fa7b3e">Calculate shipping</a>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      Fee <br />
+                      $15 <br />
+                      $15 <br />
+                      $15 <br />
+                      $5
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Subtotal</th>
+                  <td></td>
+                  <td>$162.70</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="my-5">
+              <button
+                class="btn text-white px-4 py-2"
+                style="background-color: #fa7b3e"
+              >
+                Proceed to Checkout
+              </button>
+              <div class="d-inline-block continueText">
+                <a
+                  href="product.html"
+                  class="text-decoration-none ps-5"
+                  style="color: #fa7b3e"
+                  >Continue to shopping</a
+                >
+                <div class="arrowImg d-none">
+                  <img src="images/arrow-right.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer container-fluid bg-black">
+      <div class="row">
+        <div class="col-lg-4 my-5">
+          <div>
+            <h3 class="text-white pb-5">About EG Shop</h3>
+            <p class="text-white text-light" style="width: 50%">
+              EG STORE - worldwide Grocery store since 2021. We sell over 2000+
+              Category products on our web-site.
+            </p>
+            <div class="my-4">
+              <img src="images/footer-logo.png" class="w-25" alt="" />
+            </div>
+            <p class="text-white">Phone No +2345678</p>
+            <p class="text-white">Phone No +2345678</p>
+          </div>
+        </div>
+        <div class="col-lg-4 my-5">
+          <div class="pb-4">
+            <div class="d-flex align-items-center justify-content-start">
+              <img src="images/footer-logo.png" width="250px" alt="" />
+            </div>
+            <p class="text-white text-light mt-5">
+              Register now to get update on promotion and coupons. <br />
+              Dont worry! Its not Spam
+            </p>
+            <div class="mt-5 mx-3">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 my-5 text-white">
+          <div>
+            <h3 class="pb-3">Company</h3>
+            <p>Privacy Policy</p>
+            <p>Returns</p>
+            <p>Terms and Conditions</p>
+            <p>Our Support</p>
+            <p>Terms and Services</p>
+            <p>Checkout</p>
+            <p>Other Issues</p>
+          </div>
+        </div>
+        <span class="mt-3">
+          <hr />
+        </span>
+        <div class="text-white d-flex justify-content-center">
+          <p>Copyright 2021 EG-Shop Grocery | Design By Egens Labs</p>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

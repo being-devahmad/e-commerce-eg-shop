@@ -1,0 +1,64 @@
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+      <div
+        class="container-fluid d-flex justify-content-around align-items-center"
+      >
+        <div style="border: 2px solid red" class="ms-3">
+          <a class="navbar-brand" href="#">
+            <img src="Assets/eg-shop.png" alt="" />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div style="border: 2px solid red">
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search Product"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+        <div style="border: 2px solid red">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="Assets/person.svg" width="25px" alt="" />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="Assets/list.svg" width="25px" alt="" />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="Assets/cart4.svg" width="25px" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div style="border: 2px solid red" class="d-flex py-2 me-3">
+          <div class="d-flex align-items-center">
+            <img src="Assets/phone-call.png" width="30px" alt="" />
+          </div>
+          <div class="ms-2">
+            <div class="text-muted">Hotline Number</div>
+            <div><p>+880 176 1111 456</p></div>
+          </div>
+        </div>
+      </div>
+    </nav>

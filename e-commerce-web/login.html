@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EG - shop grocery website</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+      <div class="container-fluid d-flex justify-content-between">
+        <div class="ms-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="Assets/eg-shop.png" alt="" />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="product.html">Shop</a>
+            </li>
+            <li class="nav-item dropdown mx-3">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="about-us.html">About</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="checkout.html">Checkout</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="login.html"
+                    >Login / Register</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex py-2 me-3">
+          <div class="d-flex align-items-center">
+            <img src="Assets/phone-call.png" width="30px" alt="" />
+          </div>
+          <div class="ms-2">
+            <div class="text-muted">Hotline Number</div>
+            <div><p>+880 176 1111 456</p></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Form banner -->
+    <div class="headerBanner container-fluid">
+      <div class="row">
+        <div class="col d-flex justify-content-center align-items-center py-5">
+          <div class="text-center text-white fw-bold py-5">
+            <h1>Login</h1>
+            <p>Home > Login</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Form -->
+    <div class="container-fluid py-5">
+      <div class="row">
+        <div class="col mx-auto mt-5 mb-3">
+          <center>
+            <button
+              type="submit"
+              class="btn text-white px-5 py-3 fs-5"
+              style="background-color: #f96822"
+              type="submit"
+            >
+              Resgister
+            </button>
+            <button
+              type="submit"
+              class="loginBtn btn text-black text-muted ms-2 px-5 py-3 fs-5"
+              style="background-color: white"
+              type="submit"
+            >
+              Login
+            </button>
+          </center>
+          <div class="mx-auto my-4" style="max-width: 600px">
+            <form class="loginForm mt-4 row g-3 p-4">
+              <center><h2>REGISTER YOUR ACCOUNT</h2></center>
+              <div class="col-12">
+                <label for="inputEmail4" class="form-label">First Name</label>
+                <input type="email" class="form-control" id="inputEmail4" />
+              </div>
+              <div class="col-12">
+                <label for="inputEmail4" class="form-label">Last Name</label>
+                <input type="email" class="form-control" id="inputEmail4" />
+              </div>
+              <div class="col-12">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputPassword4" class="form-label"
+                  >Confirm Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                />
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input bg-black"
+                    type="checkbox"
+                    id="gridCheck"
+                  />
+                  <label class="form-check-label" for="gridCheck">
+                    I agree to the Terms & Conditions
+                  </label>
+                </div>
+              </div>
+              <div class="col-12 d-grid">
+                <button
+                  type="submit"
+                  class="loginBtn btn text-white py-3 fs-5"
+                  style="background-color: #f96822"
+                  type="submit"
+                >
+                  Create an account
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer container-fluid bg-black">
+      <div class="row">
+        <div class="col-lg-4 my-5">
+          <div>
+            <h3 class="text-white pb-5">About EG Shop</h3>
+            <p class="text-white text-light" style="width: 50%">
+              EG STORE - worldwide Grocery store since 2021. We sell over 2000+
+              Category products on our web-site.
+            </p>
+            <div class="my-4">
+              <img src="images/footer-logo.png" class="w-25" alt="" />
+            </div>
+            <p class="text-white">Phone No +2345678</p>
+            <p class="text-white">Phone No +2345678</p>
+          </div>
+        </div>
+        <div class="col-lg-4 my-5">
+          <div class="pb-4">
+            <div class="d-flex align-items-center justify-content-start">
+              <img src="images/footer-logo.png" width="250px" alt="" />
+            </div>
+            <p class="text-white text-light mt-5">
+              Register now to get update on promotion and coupons. <br />
+              Dont worry! Its not Spam
+            </p>
+            <div class="mt-5 mx-3">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 my-5 text-white">
+          <div>
+            <h3 class="pb-3">Company</h3>
+            <p>Privacy Policy</p>
+            <p>Returns</p>
+            <p>Terms and Conditions</p>
+            <p>Our Support</p>
+            <p>Terms and Services</p>
+            <p>Checkout</p>
+            <p>Other Issues</p>
+          </div>
+        </div>
+        <span class="mt-3">
+          <hr />
+        </span>
+        <div class="text-white d-flex justify-content-center">
+          <p>Copyright 2021 EG-Shop Grocery | Design By Egens Labs</p>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EG - shop grocery website</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+      <div class="container-fluid d-flex justify-content-between">
+        <div class="ms-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="Assets/eg-shop.png" alt="" />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="product.html">Shop</a>
+            </li>
+            <li class="nav-item dropdown mx-3">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="about-us.html">About</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="checkout.html">Checkout</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="login.html"
+                    >Login / Register</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex py-2 me-3">
+          <div class="d-flex align-items-center">
+            <img src="Assets/phone-call.png" width="30px" alt="" />
+          </div>
+          <div class="ms-2">
+            <div class="text-muted">Hotline Number</div>
+            <div><p>+880 176 1111 456</p></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+    <div class="container-fluid headerBg">
+      <div class="col-lg-6 col-sm-12 col-md-7">
+        <div class="p-5">
+          <p class="display-4 fw-bold">Bengal Vegetable Farm Organic 100%</p>
+          <p class="lead fw-medium">
+            Up to 50% off, Only This Week Dont Miss !
+          </p>
+          <button
+            class="headerBtn btn btn-danger pt-3 pb-3 ps-4 pe-4 rounded-5"
+            style="background-color: #00896f; color: #ffffff; border: none"
+          >
+            Shop Now
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- SearchBox -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="my-3 d-flex align-items-center justify-content-center">
+            <input
+              type="text"
+              class="form-control py-3 rounded-pill w-75"
+              id="formGroupExampleInput"
+              placeholder="Search your products..."
+            />
+            <button
+              class="headerBtn btn btn-danger p-3 rounded-5"
+              style="background-color: #00896f; color: #ffffff; border: none"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Vegetable box -->
+    <div class="container my-5">
+      <div class="row">
+        <center>
+          <h1>What do you looking for ?</h1>
+          <p>
+            Mauris vitae ultricies leo integer malesuada nunc vel in arcu cursus
+          </p>
+        </center>
+        <div class="col-lg-2 col-md-6 mb-2">
+          <div class="card">
+            <div class="card-body d-flex flex-column align-items-center">
+              <img
+                src="images/olive-oil.png"
+                class="card-img-top w-50 img-fluid object-fit-contain"
+                alt="..."
+              />
+              <h5 class="card-title py-3">Fresh Fruits</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-2">
+          <div class="card">
+            <div class="card-body d-flex flex-column align-items-center">
+              <img
+                src="images/olive-oil.png"
+                class="card-img-top w-50 img-fluid object-fit-contain"
+                alt="..."
+              />
+              <h5 class="card-title py-3">Fresh Fruits</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-2">
+          <div class="card">
+            <div class="card-body d-flex flex-column align-items-center">
+              <img
+                src="images/olive-oil.png"
+                class="card-img-top w-50 img-fluid object-fit-contain"
+                alt="..."
+              />
+              <h5 class="card-title py-3">Fresh Fruits</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-2">
+          <div class="card">
+            <div class="card-body d-flex flex-column align-items-center">
+              <img
+                src="images/olive-oil.png"
+                class="card-img-top w-50 img-fluid object-fit-contain"
+                alt="..."
+              />
+              <h5 class="card-title py-3">Fresh Fruits</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-2">
+          <div class="card">
+            <div class="card-body d-flex flex-column align-items-center">
+              <img
+                src="images/olive-oil.png"
+                class="card-img-top w-50 img-fluid object-fit-contain"
+                alt="..."
+              />
+              <h5 class="card-title py-3">Fresh Fruits</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-2">
+          <div class="card">
+            <div class="card-body d-flex flex-column align-items-center">
+              <img
+                src="images/olive-oil.png"
+                class="card-img-top w-50 img-fluid object-fit-contain"
+                alt="..."
+              />
+              <h5 class="card-title py-3">Fresh Fruits</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fruits portion -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12 mt-5">
+          <img
+            src="images/offer-banner1.jpg"
+            class="img-fluid object-fit-contain"
+            alt=""
+          />
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-5">
+          <img
+            src="images/offer-banner-2.jpg"
+            class="img-fluid object-fit-contain"
+            alt=""
+          />
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-5 mx-md-auto">
+          <img
+            src="images/offer-banner3.jpg"
+            class="img-fluid object-fit-contain"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Best Seller Grocery -->
+    <center>
+      <h1>What do you looking for ?</h1>
+      <p>
+        Mauris vitae ultricies leo integer malesuada nunc vel in arcu cursus
+      </p>
+    </center>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/egg-plant.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Fresh Eggplant</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img
+                src="images/product-sm2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <h5 class="card-title text-center">Organic Kaju</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/brocli.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Fresh Brocoli Crowns</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/nuts.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Fresh Nuts</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img
+                src="images/product-sm4.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <h5 class="card-title text-center">Vegetable Baskets</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/guava3.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Fresh Guava</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img
+                src="images/product-sm16.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <h5 class="card-title text-center">Fresh Strawberry</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/red-chilli.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Red Chilli</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/red-beat.jpg" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Fresh Red Beat</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/tomato.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Fresh Tomatoes</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/rex.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Chocolate Pack</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/redcherry.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Organic Red Cherry</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Inner Banner -->
+    <div class="innerBanner container mb-5">
+      <div class="row">
+        <div class="col">
+          <div class="d-flex align-items-center flex-column pt-5">
+            <h1 class="fw-bold text-white mt-5">
+              Weekly Special Offers on Vegetable
+            </h1>
+            <div class="text-center">
+              <button
+                type="button"
+                class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                style="background-color: #f96822"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carts -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/egg-plant.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Fresh Eggplant</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img
+                src="images/product-sm2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <h5 class="card-title text-center">Organic Kaju</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/brocli.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Fresh Brocoli Crowns</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/nuts.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Fresh Nuts</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img
+                src="images/product-sm4.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <h5 class="card-title text-center">Vegetable Baskets</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/guava3.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Fresh Guava</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img
+                src="images/product-sm16.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <h5 class="card-title text-center">Fresh Strawberry</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/red-chilli.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Red Chilli</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/red-beat.jpg" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Fresh Red Beat</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/tomato.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Fresh Tomatoes</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/rex.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Chocolate Pack</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="images/redcherry.png" class="card-img-top" alt="..." />
+              <h5 class="card-title text-center">Organic Red Cherry</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text fw-bold text-center pt-3">
+                  <del>$12 /Kg</del>
+                </p>
+                <p class="card-text fw-bold text-center px-3 fs-4">$12 /Kg</p>
+              </div>
+              <div class="d-flex flex-column" style="height: 70px">
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn mt-3 px-3 py-2 fs-5 rounded-pill text-white"
+                    style="background-color: #f96822"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fresh news -->
+    <div class="container my-5">
+      <div class="row">
+        <h1>Fresh News</h1>
+        <div class="col-lg-3 col-md-6 col-12 mt-5 mx-sm-auto">
+          <div class="card">
+            <img src="images/blog-h3-1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                How people are shopping during covid-19
+              </h5>
+              <div class="d-flex mt-3">
+                <p class="card-text text-muted fw-bold">Fresh</p>
+                <span class="vr mx-3 mt-1" style="height: 15px"></span>
+                <p class="card-text text-muted fw-bold">August 15, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-5">
+          <div class="card">
+            <img src="images/blog-h3-2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Getting safe delivery during this pandemic
+              </h5>
+              <div class="d-flex mt-3">
+                <p class="card-text text-muted fw-bold">Fresh</p>
+                <span class="vr mx-3 mt-1" style="height: 15px"></span>
+                <p class="card-text text-muted fw-bold">August 15, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-5">
+          <div class="card">
+            <img src="images/blog-h3-3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Picking right grocery sites for reliable delivery
+              </h5>
+              <div class="d-flex mt-3">
+                <p class="card-text text-muted fw-bold">Fresh</p>
+                <span class="vr mx-3 mt-1" style="height: 15px"></span>
+                <p class="card-text text-muted fw-bold">August 15, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-5">
+          <div class="card">
+            <img src="images/blog-h3-4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Picking right grocery sites for reliable delivery
+              </h5>
+              <div class="d-flex mt-3">
+                <p class="card-text text-muted fw-bold">Fresh</p>
+                <span class="vr mx-3 mt-1" style="height: 15px"></span>
+                <p class="card-text text-muted fw-bold">August 15, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 my-5">
+          <div class="card border-0" style="width: 100%">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img
+                  src="images/feature-i1.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img src="images/feature-shape.png" class="ms-5" alt="" />
+              </div>
+              <center>
+                <h5 class="card-title mt-2 mx-auto fw-bold">
+                  Fast Free Shipping
+                </h5>
+                <p class="card-text text-muted fw-bold">Arround the world</p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 my-5">
+          <div class="card border-0" style="width: 100%">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img
+                  src="images/feature-i2.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img src="images/feature-shape.png" class="ms-5" alt="" />
+              </div>
+              <center>
+                <h5 class="card-title mt-2 mx-auto fw-bold">24/7 Supports</h5>
+                <p class="card-text text-muted fw-bold">Contact us 24 hours</p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 my-5">
+          <div class="card border-0" style="width: 100%">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img
+                  src="images/feature-i3.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img src="images/feature-shape.png" class="ms-5" alt="" />
+              </div>
+              <center>
+                <h5 class="card-title mt-2 mx-auto fw-bold">100% Money Back</h5>
+                <p class="card-text text-muted fw-bold">
+                  Guarantee of money retun
+                </p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 my-5">
+          <div class="card border-0" style="width: 100%">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img
+                  src="images/feature-i4.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img src="images/feature-shape.png" class="ms-5" alt="" />
+              </div>
+              <center>
+                <h5 class="card-title mt-2 mx-auto fw-bold">
+                  100% Secure Payment
+                </h5>
+                <p class="card-text text-muted fw-bold">
+                  Your payment are safe with us.
+                </p>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer container-fluid bg-black">
+      <div class="row">
+        <div class="col-lg-4 my-5">
+          <div>
+            <h3 class="text-white pb-5">About EG Shop</h3>
+            <p class="text-white text-light" style="width: 50%">
+              EG STORE - worldwide Grocery store since 2021. We sell over 2000+
+              Category products on our web-site.
+            </p>
+            <div class="my-4">
+              <img src="images/footer-logo.png" class="w-25" alt="" />
+            </div>
+            <p class="text-white">Phone No +2345678</p>
+            <p class="text-white">Phone No +2345678</p>
+          </div>
+        </div>
+        <div class="col-lg-4 my-5">
+          <div class="pb-4">
+            <div class="d-flex align-items-center justify-content-start">
+              <img src="images/footer-logo.png" width="250px" alt="" />
+            </div>
+            <p class="text-white text-light mt-5">
+              Register now to get update on promotion and coupons. <br />
+              Dont worry! Its not Spam
+            </p>
+            <div class="mt-5 mx-3">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 my-5 text-white">
+          <div>
+            <h3 class="pb-3">Company</h3>
+            <p>Privacy Policy</p>
+            <p>Returns</p>
+            <p>Terms and Conditions</p>
+            <p>Our Support</p>
+            <p>Terms and Services</p>
+            <p>Checkout</p>
+            <p>Other Issues</p>
+          </div>
+        </div>
+        <span class="mt-3">
+          <hr />
+        </span>
+        <div class="text-white d-flex justify-content-center">
+          <p>Copyright 2021 EG-Shop Grocery | Design By Egens Labs</p>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

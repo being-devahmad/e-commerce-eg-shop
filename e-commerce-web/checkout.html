@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EG - shop grocery website</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+      <div class="container-fluid d-flex justify-content-between">
+        <div class="ms-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="Assets/eg-shop.png" alt="" />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="product.html">Shop</a>
+            </li>
+            <li class="nav-item dropdown mx-3">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="about-us.html">About</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="checkout.html">Checkout</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="login.html"
+                    >Login / Register</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex py-2 me-3">
+          <div class="d-flex align-items-center">
+            <img src="Assets/phone-call.png" width="30px" alt="" />
+          </div>
+          <div class="ms-2">
+            <div class="text-muted">Hotline Number</div>
+            <div><p>+880 176 1111 456</p></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Checkout Banner -->
+    <div class="headerBanner container-fluid">
+      <div class="row">
+        <div class="col ps-5">
+          <div class="text-center mt-5 text-white">
+            <h1>Checkout</h1>
+            <h6>Home > Checkout</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <!-- Biling Details -->
+          <div
+            class="p-4 my-4"
+            style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+          >
+            <h2 class="py-4">Biling Details</h2>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" />
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress"
+                  placeholder="1234 Main St"
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress2"
+                  placeholder="Apartment, studio, or floor"
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity" />
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip" />
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input bg-black"
+                    type="checkbox"
+                    id="gridCheck"
+                  />
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button
+                  type="submit"
+                  class="btn text-white"
+                  style="background-color: #f96822"
+                  type="submit"
+                >
+                  Save Changes
+                </button>
+              </div>
+            </form>
+          </div>
+          <div
+            class="p-4 my-4"
+            style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+          >
+            <h2 class="py-4">Ship to a Different Address ?</h2>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">First Name</label>
+                <input type="email" class="form-control" id="inputEmail4" />
+              </div>
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Last Name</label>
+                <input type="email" class="form-control" id="inputEmail4" />
+              </div>
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+                <label for="floatingTextarea2" class="text-muted"
+                  >Order Notes (optional)</label
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <!-- Order Summary -->
+          <div class="my-4 mx-3 border border-1">
+            <h2 class="py-4 px-2">Order Summary</h2>
+            <div>
+              <div
+                class="d-flex justify-content-between align-items-center px-4"
+              >
+                <div class="d-inline-block">
+                  <img src="images/redcherry.png" class="w-75" alt="" />
+                </div>
+                <div>
+                  <p>
+                    Organic Vegetable grains <br />
+                    $22.36
+                  </p>
+                </div>
+                <div>
+                  <img src="images/backspace-reverse-fill.svg" alt="" />
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center px-4"
+              >
+                <div class="d-inline-block">
+                  <img src="images/egg-plant.png" class="w-75" alt="" />
+                </div>
+                <div>
+                  <p>
+                    Organic Vegetable grains <br />
+                    $22.36
+                  </p>
+                </div>
+                <div>
+                  <img src="images/backspace-reverse-fill.svg" alt="" />
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center px-4 pb-4"
+              >
+                <div class="d-inline-block">
+                  <img src="images/red-beat.jpg" class="w-100" alt="" />
+                </div>
+                <div class="ps-5">
+                  <p>
+                    Organic Vegetable grains <br />
+                    $22.36
+                  </p>
+                </div>
+                <div>
+                  <img src="images/backspace-reverse-fill.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Subtotal -->
+          <div
+            class="d-flex justify-content-between align-items-center my-4 mx-3 p-4 border border-1"
+          >
+            <div>
+              <h5>Subtotal</h5>
+              <h6>Tax</h6>
+              <p>Total ( tax excl.)</p>
+              <p>Total ( tax incl.)</p>
+            </div>
+            <div>
+              <h5>$128.70</h5>
+              <h6>$5</h6>
+              <p>$15</p>
+              <p>$15</p>
+            </div>
+          </div>
+          <!-- Total -->
+          <div
+            class="d-flex justify-content-between align-items-center my-4 mx-3 p-4 border border-1"
+          >
+            <div>
+              <h5>Total</h5>
+            </div>
+            <div>
+              <h5>$128.70</h5>
+            </div>
+          </div>
+          <!-- terms and conditions -->
+          <div class="border border-1 m-3 p-5">
+            <div class="form-check my-3">
+              <input
+                class="form-check-input bg-black"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault1"
+              />
+              <label class="form-check-label" for="flexRadioDefault1">
+                Check Payments <br />
+                <small class="text-muted"
+                  >Please send a check to Store Name, Store Street, Store Town,
+                  Store State / County, Store Postcode.</small
+                >
+              </label>
+            </div>
+            <div class="form-check my-3">
+              <input
+                class="form-check-input bg-black"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault2"
+                checked
+              />
+              <label class="form-check-label" for="flexRadioDefault2">
+                Cash on Delivery <br />
+                <small class="text-muted">Pay with cash upon delivery.</small>
+              </label>
+            </div>
+            <div class="form-check my-3">
+              <input
+                class="form-check-input bg-black"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault2"
+                checked
+              />
+              <label class="form-check-label" for="flexRadioDefault2">
+                PayPal
+                <img src="images/payonert.png" class="px-4" alt="" />
+                <a
+                  href="#"
+                  style="color: #f96822; border-bottom: 1px solid #f96822"
+                  class="text-decoration-none pb-1"
+                  >What is PayPal</a
+                >
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input bg-black"
+                type="checkbox"
+                id="gridCheck"
+              />
+              <label class="form-check-label" for="gridCheck">
+                I've agreed to terms and conditions
+              </label>
+            </div>
+          </div>
+          <!-- Place Order -->
+          <button
+            class="btn mx-3 mb-5 px-5 py-3 fs-5 text-white"
+            style="background-color: #f96822"
+          >
+            Place Order
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer container-fluid bg-black">
+      <div class="row">
+        <div class="col-lg-4 my-5">
+          <div>
+            <h3 class="text-white pb-5">About EG Shop</h3>
+            <p class="text-white text-light" style="width: 50%">
+              EG STORE - worldwide Grocery store since 2021. We sell over 2000+
+              Category products on our web-site.
+            </p>
+            <div class="my-4">
+              <img src="images/footer-logo.png" class="w-25" alt="" />
+            </div>
+            <p class="text-white">Phone No +2345678</p>
+            <p class="text-white">Phone No +2345678</p>
+          </div>
+        </div>
+        <div class="col-lg-4 my-5">
+          <div class="pb-4">
+            <div class="d-flex align-items-center justify-content-start">
+              <img src="images/footer-logo.png" width="250px" alt="" />
+            </div>
+            <p class="text-white text-light mt-5">
+              Register now to get update on promotion and coupons. <br />
+              Dont worry! Its not Spam
+            </p>
+            <div class="mt-5 mx-3">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 my-5 text-white">
+          <div>
+            <h3 class="pb-3">Company</h3>
+            <p>Privacy Policy</p>
+            <p>Returns</p>
+            <p>Terms and Conditions</p>
+            <p>Our Support</p>
+            <p>Terms and Services</p>
+            <p>Checkout</p>
+            <p>Other Issues</p>
+          </div>
+        </div>
+        <div class="text-white d-flex justify-content-center my-5">
+          <p>Copyright 2021 EG-Shop Grocery | Design By Egens Labs</p>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

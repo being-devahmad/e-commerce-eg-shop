@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EG - shop grocery website</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+      <div class="container-fluid d-flex justify-content-between">
+        <div class="ms-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="Assets/eg-shop.png" alt="" />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="product.html">Shop</a>
+            </li>
+            <li class="nav-item dropdown mx-3">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="about-us.html">About</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="checkout.html">Checkout</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="login.html"
+                    >Login / Register</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex py-2 me-3">
+          <div class="d-flex align-items-center">
+            <img src="Assets/phone-call.png" width="30px" alt="" />
+          </div>
+          <div class="ms-2">
+            <div class="text-muted">Hotline Number</div>
+            <div><p>+880 176 1111 456</p></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- About Us Banner -->
+    <div class="headerBanner container-fluid">
+      <div class="row">
+        <div class="col d-flex justify-content-center align-items-center py-5">
+          <div class="text-center text-white fw-bold py-5">
+            <h1>About Us</h1>
+            <p>Home > About Us</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Blog Post -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <img
+            class="rounded-5 p-4"
+            src="images/about-bg.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div
+            class="p-5 rounded-5"
+            style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+          >
+            <p class="col-lg-10">Welcome To EG</p>
+            <h2 class="col-lg-10" style="line-height: 150%">
+              What can a great About<br />
+              Us page do for your<br />
+              business?
+            </h2>
+            <p class="mt-2" style="line-height: 1.7">
+              An About Us page helps your company make a good first impression,
+              and is critical for building customer trust and loyalty. An About
+              Us page should make sure to cover basic information about the
+              store and its founders, explain the company's purpose and how it
+              differs from the competition, and encourage discussion and
+              interaction.
+            </p>
+            <p>
+              "Ius ferri velit sanctus cu, sed at soleat accusata. Dictas
+              prompta et Ut placerat legendos interpre.Donec vitae sapien ut
+              libero venenatis faucibus."
+            </p>
+            <div class="d-flex mt-5">
+              <img src="images/about1.svg" />
+              <img class="ms-2" src="images/about2.svg" />
+            </div>
+            <button
+              class="btn-danger py-3 px-5 fs-5 rounded-5 mt-3"
+              style="background-color: #f96822; color: #ffffff; border: none"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- InnerBanner -->
+    <div class="container-fluid mt-5">
+      <div class="aboutUs1Banner rounded-4"></div>
+    </div>
+    <!-- Why Choose Us -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-12 my-5">
+          <div class="card border-0" style="width: 18rem">
+            <div class="card-body text-center">
+              <div>
+                <img
+                  src="images/service-icon1.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <h5 class="card-title mt-2 mx-auto fw-bold">100% Organic</h5>
+              <p class="card-text text-muted">
+                It is a long established fact that a reader will be distracted
+                by the readable.
+              </p>
+              <a
+                href="#"
+                class="readMore text-decoration-none text-muted fw-bold"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 my-5">
+          <div class="card border-0" style="width: 18rem">
+            <div class="card-body text-center">
+              <div>
+                <img
+                  src="images/service-icon2.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <h5 class="card-title mt-2 mx-auto fw-bold">Free Delivery</h5>
+              <p class="card-text text-muted">
+                It is a long established fact that a reader will be distracted
+                by the readable.
+              </p>
+              <a
+                href="#"
+                class="readMore text-decoration-none text-muted fw-bold"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 my-5">
+          <div class="card border-0" style="width: 18rem">
+            <div class="card-body text-center">
+              <div>
+                <img
+                  src="images/service-icon3.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <h5 class="card-title mt-2 mx-auto fw-bold">100% Satisfaction</h5>
+              <p class="card-text text-muted">
+                It is a long established fact that a reader will be distracted
+                by the readable.
+              </p>
+              <a
+                href="#"
+                class="readMore text-decoration-none text-muted fw-bold"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 my-5">
+          <div class="card border-0" style="width: 18rem">
+            <div class="card-body text-center">
+              <div>
+                <img
+                  src="images/service-icon4.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <h5 class="card-title mt-2 mx-auto fw-bold">Great Daily Deal</h5>
+              <p class="card-text text-muted">
+                It is a long established fact that a reader will be distracted
+                by the readable.
+              </p>
+              <a
+                href="#"
+                class="readMore text-decoration-none text-muted fw-bold"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 my-1">
+          <div class="card border-0" style="width: 18rem">
+            <div class="card-body text-center">
+              <div>
+                <img
+                  src="images/service-icon1.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <h5 class="card-title mt-2 mx-auto fw-bold">Wide Assortment</h5>
+              <p class="card-text text-muted">
+                It is a long established fact that a reader will be distracted
+                by the readable.
+              </p>
+              <a
+                href="#"
+                class="readMore text-decoration-none text-muted fw-bold"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 my-1">
+          <div class="card border-0" style="width: 18rem">
+            <div class="card-body text-center">
+              <div>
+                <img
+                  src="images/service-icon2.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <h5 class="card-title mt-2 mx-auto fw-bold">Premiun Quality</h5>
+              <p class="card-text text-muted">
+                It is a long established fact that a reader will be distracted
+                by the readable.
+              </p>
+              <a
+                href="#"
+                class="readMore text-decoration-none text-muted fw-bold"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 my-1">
+          <div class="card border-0" style="width: 18rem">
+            <div class="card-body text-center">
+              <div>
+                <img
+                  src="images/service-icon3.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <h5 class="card-title mt-2 mx-auto fw-bold">Always Fresh</h5>
+              <p class="card-text text-muted">
+                It is a long established fact that a reader will be distracted
+                by the readable.
+              </p>
+              <a
+                href="#"
+                class="readMore text-decoration-none text-muted fw-bold"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 my-1">
+          <div class="card border-0" style="width: 18rem">
+            <div class="card-body text-center">
+              <div>
+                <img
+                  src="images/service-icon4.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <h5 class="card-title mt-2 mx-auto fw-bold">Best Quality</h5>
+              <p class="card-text text-muted">
+                It is a long established fact that a reader will be distracted
+                by the readable.
+              </p>
+              <a
+                href="#"
+                class="readMore text-decoration-none text-muted fw-bold"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-12 my-5">
+          <div class="card border-0" style="width: 18rem">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img
+                  src="images/feature-i1.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img src="images/feature-shape.png" class="ms-5" alt="" />
+              </div>
+              <center>
+                <h5 class="card-title mt-2 mx-auto fw-bold">
+                  Fast Free Shipping
+                </h5>
+                <p class="card-text text-muted fw-bold">Arround the world</p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 my-5">
+          <div class="card border-0" style="width: 18rem">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img
+                  src="images/feature-i2.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img src="images/feature-shape.png" class="ms-5" alt="" />
+              </div>
+              <center>
+                <h5 class="card-title mt-2 mx-auto fw-bold">24/7 Supports</h5>
+                <p class="card-text text-muted fw-bold">Contact us 24 hours</p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 my-5">
+          <div class="card border-0" style="width: 18rem">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img
+                  src="images/feature-i3.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img src="images/feature-shape.png" class="ms-5" alt="" />
+              </div>
+              <center>
+                <h5 class="card-title mt-2 mx-auto fw-bold">100% Money Back</h5>
+                <p class="card-text text-muted fw-bold">
+                  Guarantee of money retun
+                </p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 my-5">
+          <div class="card border-0" style="width: 18rem">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img
+                  src="images/feature-i4.svg"
+                  style="width: 40px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img src="images/feature-shape.png" class="ms-5" alt="" />
+              </div>
+              <center>
+                <h5 class="card-title mt-2 mx-auto fw-bold">
+                  100% Secure Payment
+                </h5>
+                <p class="card-text text-muted fw-bold">
+                  Your payment are safe with us.
+                </p>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer container-fluid bg-black">
+      <div class="row">
+        <div class="col-lg-4 my-5">
+          <div>
+            <h3 class="text-white pb-5">About EG Shop</h3>
+            <p class="text-white text-light" style="width: 50%">
+              EG STORE - worldwide Grocery store since 2021. We sell over 2000+
+              Category products on our web-site.
+            </p>
+            <div class="my-4">
+              <img src="images/footer-logo.png" class="w-25" alt="" />
+            </div>
+            <p class="text-white">Phone No +2345678</p>
+            <p class="text-white">Phone No +2345678</p>
+          </div>
+        </div>
+        <div class="col-lg-4 my-5">
+          <div class="pb-4">
+            <div class="d-flex align-items-center justify-content-start">
+              <img src="images/footer-logo.png" width="250px" alt="" />
+            </div>
+            <p class="text-white text-light mt-5">
+              Register now to get update on promotion and coupons. <br />
+              Dont worry! Its not Spam
+            </p>
+            <div class="mt-5 mx-3">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 my-5 text-white">
+          <div>
+            <h3 class="pb-3">Company</h3>
+            <p>Privacy Policy</p>
+            <p>Returns</p>
+            <p>Terms and Conditions</p>
+            <p>Our Support</p>
+            <p>Terms and Services</p>
+            <p>Checkout</p>
+            <p>Other Issues</p>
+          </div>
+        </div>
+        <span class="mt-3">
+          <hr />
+        </span>
+        <div class="text-white d-flex justify-content-center">
+          <p>Copyright 2021 EG-Shop Grocery | Design By Egens Labs</p>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

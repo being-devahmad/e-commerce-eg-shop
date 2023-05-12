@@ -1,0 +1,77 @@
+.headerBg {
+  background-image: url("images/home-2banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.headerBtn:hover {
+  background-color: white;
+  border: 2px solid #00896f;
+}
+.bannerCheckout {
+  background-image: url("images/offer-banner-2.jpg");
+  background-size: cover;
+}
+.innerBanner {
+  background: linear-gradient(rgba(7, 18, 62, 0.7), rgba(7, 18, 62, 0.7)),
+    url("images/inner-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+.headerBanner {
+  background: linear-gradient(rgba(7, 18, 62, 0.7), rgba(7, 18, 62, 0.7)),
+    url("images/inner-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh !important;
+}
+
+.contactForm {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.branchTitle {
+  background-color: #f96822;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.cardLink:hover {
+  color: #f96822 !important;
+}
+.productCartButton {
+  display: none;
+}
+.card:hover .productCartButton {
+  display: block;
+}
+.card:hover .productCartStars {
+  display: none;
+}
+button {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.loginBtn:hover {
+  background-color: #f96822 !important;
+  color: white !important;
+  transition: 0.5s;
+}
+.loginForm {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.readMore:hover {
+  border-bottom: 2px solid #00896f;
+  transition: 0.4s;
+}
+.continueText:hover .arrowImg {
+  display: inline-block !important;
+  transition: 0.4s;
+}
